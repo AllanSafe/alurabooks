@@ -55,3 +55,49 @@
 .container__button {
   display: none;
 }
+
+.container__title {
+  display: none;
+}
+.selections {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .container__title,
+  .container__title--bold {
+    font-family: var(--fonte-secundario);
+    font-size: 30px;
+  }
+  .container__title {
+    font-weight: 400;
+    display: block;
+  }
+  .container__title--bold {
+    font-weight: 700;
+  }
+  .selections {
+    display: flex;
+  }
+  .selections__item {
+    padding: 0 1em;
+    text-transform: uppercase;
+  }
+  .selections__link {
+    text-decoration: none;
+    color: var(--preto);
+  }
+  .container__image-transparent {
+    display: none;
+  }
+  .header__hamburguer-menu {
+    display: none;
+  }
+  .selections__button:checked ~ .list-menu {
+    display: block;
+    width: auto;
+  }
+  .selections__button {
+    display: none;
+  }
+}

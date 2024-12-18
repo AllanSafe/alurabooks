@@ -10,6 +10,11 @@
       rel="stylesheet"
     />
     <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
@@ -47,13 +52,50 @@
           alt="Logo Alura Books"
           class="container__image"
         />
+        <h1 class="container__title">
+          <b class="container__title--bold">Alura</b>Books
+        </h1>
       </div>
+
+      <ul class="selections">
+        <input
+          type="checkbox"
+          id="selections-menu"
+          class="selections__button"
+        />
+        <label for="selections-menu">
+          <li class="selections__item">Categorias</li>
+        </label>
+        <ul class="list-menu">
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Programação</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Front-end</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Infraestrutura</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Business</a>
+          </li>
+          <li class="list-menu__item">
+            <a href="#" class="list-menu__link">Design UX</a>
+          </li>
+        </ul>
+        <li class="selections__item">
+          <a href="#" class="selections__link">Favoritos</a>
+        </li>
+        <li class="selections__item">
+          <a href="#" class="selections__link">Minha estante</a>
+        </li>
+      </ul>
       <div class="container">
         <a href="#"
           ><img
             src="/img/Favoritos.svg"
             alt="Meus Favoritos"
-            class="container__image"
+            class="container__image container__image-transparent"
         /></a>
         <a href="#"
           ><img
