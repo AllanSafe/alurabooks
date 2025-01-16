@@ -9,3 +9,32 @@ hr {
   font-weight: 400;
   padding: 1em;
 }
+.footer-list {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-list {
+    display: block;
+  }
+  .footer__title {
+    font-size: 24px;
+  }
+  .footer-list__title {
+    font-size: 14px;
+    color: var(--cinza-claro);
+  }
+  .footer-list__item {
+    display: flex;
+    align-items: center;
+    margin: 0.5em 0;
+  }
+  .footer-list__link {
+    color: var(--cinza);
+    text-decoration: none;
+    margin-left: 0.5em;
+  }
+}
