@@ -98,6 +98,28 @@
     display: block;
     width: auto;
   }
+  .selections__button:checked ~ .selections__label > .selections__item {
+    background: var(--azul-degrade);
+    color: var(--branco);
+  }
+  .selections__item {
+    padding: 2em 1em;
+  }
+  .list-menu__item:hover {
+    background: var(--azul-degrade);
+  }
+  .list-menu__item:hover > .list-menu__link {
+    -webkit-text-fill-color: var(--branco);
+    text-decoration: none;
+  }
+  .footer-list__link:hover {
+    color: var(--laranja);
+  }
+  .topics__link:hover,
+  .buttons__anchor:hover {
+    background-color: var(--preto);
+    color: var(--branco);
+  }
 }
 
 @media screen and (min-width: 1728px) {
