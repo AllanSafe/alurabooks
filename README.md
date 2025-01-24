@@ -13,7 +13,5 @@ Alura Books is a mobile-first responsive web application designed to provide an 
 - HTML5
 - CSS3
 
-## Installation
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/alura-books.git
+## Open your browser and visit http://localhost:3000 to view the application
+alurabooks-tau-eight.vercel.app
