@@ -13,5 +13,5 @@ Alura Books is a mobile-first responsive web application designed to provide an 
 - HTML5
 - CSS3
 
-## Open your browser and visit http://localhost:3000 to view the application
-alurabooks-tau-eight.vercel.app
+## Open your browser to view the application
+https://alurabooks-tau-eight.vercel.app/
