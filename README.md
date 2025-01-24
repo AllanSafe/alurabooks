@@ -12,8 +12,7 @@ Alura Books is a mobile-first responsive web application designed to provide an 
 ## Technologies Used
 - HTML5
 - CSS3
-- Framework/Libraries (e.g., React, Angular, Vue.js - specify the actual ones used in your project)
-- API integration (if applicable)
+- Framework/Libraries (Swipper)
 
 ## Open your browser to view the application
 https://alurabooks-tau-eight.vercel.app/
